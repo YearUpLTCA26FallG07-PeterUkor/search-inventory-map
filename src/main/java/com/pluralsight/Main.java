@@ -57,8 +57,10 @@ public class Main {
                 }
 
             }
+            bufferedReader.close();
         } catch (IOException e){
             System.out.println("Issues Reading File");
         }
+
     }
 }
